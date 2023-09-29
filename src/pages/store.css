@@ -1,0 +1,34 @@
+/* store.css */
+/*.store-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 70%;
+  height: 10%;
+  overflow: hidden;
+}*/
+/* Définissez une classe pour l'animation */
+.fade-in {
+  color: blue;
+  opacity: 0; /* Commencez avec une opacité de 0 (complètement transparent) */
+  transform: translateY(20px); /* Déplacez l'élément vers le bas de 20 pixels */
+  transition: opacity 0.5s ease, transform 0.5s ease; /* Ajoutez des transitions pour l'opacité et la transformation */
+}
+@keyframes colorBlink {
+  0% { color: green; }
+  20% { color: blue; }
+  40% { color: green; }
+  60% { color: yellow; }
+  80% { color: red; }
+  100% { color: violet; }
+}
+
+/* Appliquez l'animation à l'élément lorsqu'il a la classe 'fade-in' */
+.fade-in.active {
+  opacity: 4; /* Rendez l'élément entièrement visible */
+  transform: translateY(0); /* Réinitialisez la position de l'élément */
+  font-size: 36px; /* Ajustez la taille de la police selon vos besoins */
+  animation: colorBlink 3s linear infinite; /* Durée de l'animation et itération infinie */
+}
+
+
