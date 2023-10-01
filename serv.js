@@ -12,8 +12,8 @@
 //Lamicall Support de téléphone: price_1NvlNgH0QgpgLmCCrhUWxCCC
 // Drone quadrirotor pliable: price_1NvlQbH0QgpgLmCCMEYqBfwM
 const express = require('express');
-var cors = require('cors')
-const stripe = require('stripe')('sk_test_51NviIhH0QgpgLmCCwZs2eIKdglQhZXIKIfMJEN9VJthfx9kWEQJ1xQ3mmvKjaSZBpJJwcxc9um1h4LcraivqBHLI00TJirqgke');
+var cors = require('cors');
+const stripe = require('stripe')('pk_test_51NviIhH0QgpgLmCCmvl1Edf9e7tehuqzAZ6UMVeJRcjO5nduCWH5nRfrdPXqR1XKHSmb4FV72Oxy5EJtfqcD5DPr00GzIpvLYG');
 
 const app = express();
 app.use(cors());
@@ -21,15 +21,30 @@ app.use(express.static("public"));
 app.use(express.json());
 
 app.post("/checkout", async (req, res) => {
+    /*
+    req.body.items
+    [
+        {
+            id: 1,
+            quantity: 3
+        }
+    ]
 
-    
+    stripe wants
+    [
+        {
+            price: 1,
+            quantity: 3
+        }
+    ]
+    */
     console.log(req.body);
     const items = req.body.items;
     let lineItems = [];
     items.forEach((item)=> {
         lineItems.push(
             {
-                prix: item.id,
+                price: item.id,
                 quantity: item.quantity
             }
         )

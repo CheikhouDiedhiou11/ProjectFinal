@@ -27,7 +27,7 @@ function ProduitCard(props) {
                                 <Button sm="6" onClick={() => Cart.removeOneFromCart(produit.id)} className="mx-2">-</Button>
                             </Col>
                         </Form>
-                        <Button variant="danger" onClick={() => Cart.deleteFromCart(produit.id)} className="my-2">retirer du pani</Button>
+                        <Button variant="danger" onClick={() => Cart.deleteFromCart(produit.id)} className="my-2">retirer du panier</Button>
                     </>
                     :
                 

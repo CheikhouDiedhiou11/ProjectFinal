@@ -86,6 +86,71 @@ const produitsArray = [
         image:"https://m.media-amazon.com/images/I/71SyL0acTqL._AC_UL320_.jpg"
 
     },
+    {
+        id:"12",
+        titre:"Deska TV LED Deska ",
+        prix:84.97,
+        image:"https://sn.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/75/986911/1.jpg?5708"
+
+    },
+    {
+        id:"12",
+        titre:"Astech Four Electrique ",
+        prix:55.40,
+        image:"https://sn.jumia.is/unsafe/fit-in/680x680/filters:fill(white)/product/61/743911/1.jpg?7108"
+
+    },
+    {
+        id:"13",
+        titre:"Generic Haut Parleur Bluetooth",
+        prix:11.21,
+        image:"https://sn.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/20/61589/1.jpg?4339"
+
+    },
+    {
+        id:"14",
+        titre:"Clé usb",
+        prix:4.61,
+        image:"https://sn.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/99/36019/1.jpg?0918"
+
+    },
+    {
+        id:"15",
+        titre:" Mini Souris Sans Fil ",
+        prix:4.03,
+        image:"https://sn.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/50/420121/1.jpg?3013"
+
+    },
+    {
+        id:"16",
+        titre:" Mini Ventilo",
+        prix:12.02,
+        image:"https://sn.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/11/360301/1.jpg?8135"
+
+    },
+    {
+        id:"17",
+        titre:"Convertisseur Adaptateur",
+        prix:5.93,
+        image:"https://sn.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/74/19639/1.jpg?8491"
+
+    },
+    {
+        id:"18",
+        titre:"clavier sans fil +souris sans fil",
+        prix:16.08,
+        image:"https://sn.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/03/134121/1.jpg?0960"
+
+    },
+    {
+        id:"19",
+        titre:"TC2i Câble Lan FTP Cat6 30m",
+        prix:16.00,
+        image:"https://sn.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/89/98979/1.jpg?1613"
+
+    },
+
+
 
 
 ]
