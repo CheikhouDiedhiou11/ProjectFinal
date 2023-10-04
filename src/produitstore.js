@@ -144,7 +144,7 @@ const produitsArray = [
     },
     {
         id:"19",
-        titre:"TC2i Câble Lan FTP Cat6 30m",
+        titre:"ATC2i Câble Lan FTP Cat6 30m",
         prix:16.00,
         image:"https://sn.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/89/98979/1.jpg?1613"
 
